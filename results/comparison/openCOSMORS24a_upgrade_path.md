@@ -1,4 +1,4 @@
-# openCOSMORS24a: Potential Upgrade Path
+# openCOSMO-RS: Potential Upgrade Path
 
 ## Current Setup
 
@@ -42,7 +42,37 @@ cosmo.add_molecule(["solvent2.orcacosmo"])
 Note: `openCOSMORS24a` is a class, not a string — it must be instantiated
 directly rather than passed as a name to `Parameterization()`.
 
+## Beyond openCOSMORS24a: Dispersion Corrections (2025)
+
+Two recent papers from the same group build on openCOSMORS24a by adding
+intermolecular dispersion interactions — directly relevant to our chloroform
+outlier problem.
+
+### Part 1: Halocarbon Dispersion (Jan 2025)
+
+Adds a dispersion term between paired surface segments, fitted to VLE, LLE,
+and infinite-dilution activity coefficient data for halocarbon and refrigerant
+mixtures. Significantly improves predictions for halogenated compounds
+compared to openCOSMORS24a. This directly targets the compound class where
+our largest errors occur (chloroform).
+
+### Part 2: Atomic Polarizabilities (Feb 2025)
+
+Generalizes the dispersion approach using atomic polarizability tensors
+computed by ORCA 6.0. Validated on 50,000+ data points across diverse
+chemical families, with consistent accuracy improvements and fewer adjustable
+parameters than Part 1.
+
+### Availability
+
+Neither paper has been released as a named parameterization in `opencosmorspy`
+yet — they remain research publications. Both still require ORCA 6.0 for
+quantum chemistry inputs. If and when they are packaged, they would be the
+natural successor to openCOSMORS24a for this benchmark.
+
 ## References
 
 - [openCOSMO-RS_py GitHub](https://github.com/TUHH-TVT/openCOSMO-RS_py)
 - [Predicting solvation free energies with openCOSMO-RS (arXiv 2407.03434)](https://arxiv.org/html/2407.03434v1)
+- [Dispersion Part 1: Halocarbons (Chem. Eng. Sci. 2025)](https://doi.org/10.1016/j.ces.2025.121425)
+- [Dispersion Part 2: Atomic polarizabilities (arXiv 2502.08520)](https://arxiv.org/abs/2502.08520)
