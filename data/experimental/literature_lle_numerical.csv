@@ -1,0 +1,24 @@
+system,solvent1,solvent2,T_K,T_C,x1_phase1,x1_phase2,property,source,notes
+water_butanol,Water,1-Butanol,298.15,25,0.9809,0.512,mutual_solubility,IUPAC-NIST,x1=water mole fraction
+water_butanol,Water,1-Butanol,393,120,0.89,0.89,UCST,IUPAC-NIST,critical point
+water_hexane,Water,Hexane,298.15,25,0.99999977,0.00048,mutual_solubility,IUPAC-NIST,x1=water mole fraction
+water_hexane,Water,Hexane,293.15,20,0.9999975,0.00054,mutual_solubility,IUPAC-NIST,x1=water mole fraction
+water_ethylacetate,Water,Ethyl acetate,293.15,20,0.967,0.045,mutual_solubility,IUPAC-NIST Vol88,x1=water (from 8.7wt% EA)
+water_ethylacetate,Water,Ethyl acetate,298.15,25,0.970,0.044,mutual_solubility,IUPAC-NIST Vol88,x1=water (from 8.3wt% EA)
+water_thf,Water,THF,298.15,25,1.0,1.0,miscible,Matous1972,fully miscible at 25C
+water_thf,Water,THF,345,72,0.72,0.28,LCST,Matous1972,lower critical point (wt frac THF)
+water_thf,Water,THF,410,137,0.72,0.28,UCST,Matous1972,upper critical point (wt frac THF)
+methanol_hexane,Methanol,Hexane,293.15,20,0.210,0.822,mutual_solubility,IUPAC-NIST,x1=methanol
+methanol_hexane,Methanol,Hexane,273.15,0,0.15,0.87,binodal,literature,x1=methanol
+methanol_hexane,Methanol,Hexane,283.15,10,0.18,0.85,binodal,literature,x1=methanol
+methanol_hexane,Methanol,Hexane,298.15,25,0.24,0.78,binodal,literature,x1=methanol
+methanol_hexane,Methanol,Hexane,303.15,30,0.30,0.70,binodal,literature,x1=methanol
+methanol_hexane,Methanol,Hexane,306.8,33.7,0.35,0.35,UCST,IUPAC-NIST,critical point
+acetonitrile_hexane,Acetonitrile,Hexane,283.15,10,0.035,0.970,binodal,IUPAC-NIST,x1=acetonitrile
+acetonitrile_hexane,Acetonitrile,Hexane,293.15,20,0.05,0.95,binodal,Sinegubova1978,x1=acetonitrile
+acetonitrile_hexane,Acetonitrile,Hexane,298.15,25,0.06,0.93,binodal,Sinegubova1978,x1=acetonitrile
+acetonitrile_hexane,Acetonitrile,Hexane,313.15,40,0.10,0.87,binodal,Sinegubova1978,x1=acetonitrile
+acetonitrile_hexane,Acetonitrile,Hexane,323.15,50,0.14,0.82,binodal,Sinegubova1978,x1=acetonitrile
+acetonitrile_hexane,Acetonitrile,Hexane,333.15,60,0.21,0.76,binodal,Sinegubova1978,x1=acetonitrile
+acetonitrile_hexane,Acetonitrile,Hexane,343.15,70,0.32,0.70,binodal,Sinegubova1978,x1=acetonitrile
+acetonitrile_hexane,Acetonitrile,Hexane,350.2,77,0.583,0.583,UCST,IUPAC-NIST,critical point

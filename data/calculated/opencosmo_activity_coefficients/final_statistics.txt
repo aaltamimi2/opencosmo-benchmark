@@ -1,0 +1,28 @@
+OpenCOSMO-RS Binary Solvent Phase Diagrams - Final Statistics
+======================================================================
+
+Total pairs: 465
+Total data points: 48,825
+
+Most Non-Ideal (25°C):
+            solvent1        solvent2  GE_RT_x05   gamma1_inf
+                DMSO      Chloroform  -2.345203 2.582917e-06
+                DMSO     Acetic acid  -2.258105 1.442345e-05
+                 NMP      Chloroform  -2.218445 1.215202e-05
+                 DMF      Chloroform  -1.941448 5.809206e-05
+              Decane           Water   1.920960 2.393238e+07
+              Octane           Water   1.837524 1.936944e+06
+             Heptane           Water   1.787581 5.370284e+05
+              Hexane           Water   1.731708 1.501227e+05
+                 THF      Chloroform  -1.677734 3.268897e-03
+             Pentane           Water   1.665227 4.006754e+04
+         Cyclohexane           Water   1.655957 3.126240e+04
+Carbon tetrachloride           Water   1.631076 2.508369e+04
+        Ethylbenzene           Water   1.597892 3.655239e+04
+                 NMP     Acetic acid  -1.529828 1.059266e-03
+             Toluene           Water   1.527565 1.104636e+04
+                DMSO Dichloromethane  -1.501034 1.347776e-03
+          Chloroform         Dioxane  -1.488311 1.910035e-02
+                 NMP Dichloromethane  -1.454393 1.925243e-03
+             Benzene           Water   1.438703 2.992412e+03
+                DMSO           Water  -1.313547 1.750208e-03
